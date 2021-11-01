@@ -52,6 +52,7 @@ class Lettercharacter{
                     endShape();
                     break;
             case 'c': 
+                    noFill();
                     beginShape();
                     vertex(x+w, y);
                     vertex(x, y);
@@ -60,6 +61,7 @@ class Lettercharacter{
                     endShape();
                     break;
             case 'd':
+                    noFill();
                     beginShape();
                     vertex(x+w, y);
                     vertex(x, y);
@@ -68,6 +70,7 @@ class Lettercharacter{
                     endShape(CLOSE);
                     break;
             case 'e':
+                    noFill();
                     beginShape();
                     vertex(x+w, y);
                     vertex(x, y);
@@ -80,6 +83,7 @@ class Lettercharacter{
                     endShape();
                     break;
             case 'f':
+                    noFill();
                     beginShape(LINES);
                     vertex(x, y+l/3);
                     vertex(x+w, y+l/3);
